@@ -1,0 +1,289 @@
+*{
+  padding: 0%;
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+.rg-form,.info-message,.search-message{
+  font-family: 'Yuji Hentaigana Akebono', cursive;
+  font-weight: 200;
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(7px 12px 3px rgb(0 0 0 / 0.4));
+
+}
+.background{
+  background-image: url(—Pngtree—camouflage\ gradient\ background\ color\ mixing_954898.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+ 
+  display: flex;
+ 
+  align-items: center;
+ 
+}
+
+.info-feed{
+  background-color:rgba(255, 255, 255, 0.208);
+  border-radius: 2rem;
+  
+  width: 40rem;
+  height: 50rem;
+ align-self: center;
+ margin-right: 3rem;
+ margin-left: 14rem;
+ 
+}
+.data{
+
+  margin-top: 1.5rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+}
+.gender-box{
+  width: 15rem;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 1rem;
+  padding-left: 3.5rem;
+
+}
+.gender-box h1{
+  filter: drop-shadow(7px 12px 3px rgb(0 0 0 / 0.4));
+ margin-top: 2rem;
+ margin-right: 1rem;
+ color: white;
+ font-family: 'Yuji Hentaigana Akebono', cursive;
+ font-weight: 400;
+ font-size: 1.5rem;
+
+}
+
+.name,.mail,.website,.image-link{
+  filter: drop-shadow(2px 3px 3px rgb(0 0 0 / 0.4));
+  width: 14rem;
+  background: transparent;
+  width: 32rem;
+  background-color: transparent;
+
+  color: white;
+ font-family: 'Yuji Hentaigana Akebono', cursive;
+ font-weight: 500;
+ font-size: 1.5rem;
+ animation: slicer;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ padding-left: 1rem;
+ margin-top: 1rem;
+ padding-top: .3rem;
+ padding-bottom: .3rem;
+ border-image: linear-gradient(to right, rgb(141, 207, 229), rgb(248, 146, 163)) 2;
+ 
+
+
+}
+.name:active,.mail:active,.website:active,.image-link:active{
+  outline: none;
+  background: none;
+  border: none;
+
+}
+::placeholder{
+  color: white;
+  font-weight: 500;
+}
+.male,.female{
+  background-color:transparent;
+  border: none;
+ filter: drop-shadow(3px 6px 3px rgb(0 0 0 / 0.4));
+}
+.male:active,.female:active{
+ transform: translateY(-4%);
+ filter: drop-shadow(7px 12px 3px rgb(0 0 0 / 0.4));
+}
+.check-boxes{
+  box-shadow: .2rem , .2rem , .2rem , 
+  .2rem black;
+  
+}
+.skills-header{
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(7px 12px 3px rgb(0 0 0 / 0.4));
+}
+.html:active,.css:active,.js:active{
+  filter: drop-shadow(3px 10px 7px rgb(0 0 0 / 0.6));
+}
+
+.skills-header h1{
+  margin-top: 2rem;
+  color: white;
+  font-family: 'Yuji Hentaigana Akebono', cursive;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+}
+.skills{
+  display: flex;
+  width: 35rem;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+.img-skills{
+  display: flex;
+  justify-content: space-around;
+  width: 13rem;
+}
+.submission{
+  display: flex;
+  justify-content: space-around;
+  width: 15rem;
+}
+
+
+.sbmit{
+  background-color:rgb(102, 199, 231);
+  border: none;
+  width: 10rem;
+  border-radius: 3rem;
+}
+.cancel{
+  background-color:rgb(248, 146, 163);
+  border: none;
+  width: 10rem;
+  border-radius: 3rem;
+  margin-left: 1rem;
+}
+.search{
+  background-color:rgb(0, 179, 255);
+  border: none;
+  width: 10rem;
+  border-radius: 3rem;
+  margin-left: 1rem;
+}
+
+.data-feeded{
+  background-color:rgba(255, 255, 255, 0.208);
+  border-radius: 2rem;
+  display: block;
+  width: 44rem;
+  height: 50rem;
+ align-self: center;
+ overflow-y: auto;
+}
+
+.data-added{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.new-person , .new-person-search{
+  background-color: rgba(255, 255, 255, 0.297);
+  display: flex;
+  width: 40rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  font-family: 'Yuji Hentaigana Akebono', cursive;
+  font-weight: 500;
+  height: fit-content;
+  padding-bottom: 1rem;
+  font-size: .7rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  padding-left: 1rem;
+  
+  
+}
+.new-person h1{
+  padding-left: 1rem;
+  z-index: 2;
+  padding-top: .5rem;
+  color: rgba(255, 255, 255, 0.884);
+  padding-bottom: .5rem;
+}
+
+.skills-data{
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+}
+.render-image img{
+  width: 13rem;
+  height: 13rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.search-menu{
+display: none;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 70vh;
+width: 42rem;
+}
+.search-div{
+  display: flex;
+  width: 40rem;
+  
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.403);
+  border-radius: 4rem;
+  height: 5rem;
+  margin-left: 2rem;
+
+}
+.clear{
+  width: 5rem;
+  height: 2rem;
+  background-color: rgba(224, 53, 53, 0.764);
+  border-radius: 2rem;
+  border: none;
+  box-shadow: .1rem .2rem  .3rem .1rem rgba(0, 0, 0, 0.553);
+}
+
+.search-bar{
+  display: block;
+  width: 25rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border: 0.3rem solid rgb(191, 128, 191);
+  border-radius: 2rem;
+}
+.find{
+  width: 5rem;
+  height: 2rem;
+  background-color: rgba(147, 76, 213, 0.764);
+  border-radius: 2rem;
+  border: none;
+  box-shadow: .1rem .2rem  .3rem .1rem rgba(0, 0, 0, 0.553);
+}
+.search-message{
+  display: none;
+  font-weight: 600;
+  font-size: 4.3rem;
+  
+}
+.data-search-render{
+  height: 55vh;
+  display: block;
+  flex-direction: column;
+  justify-content: space-around;
+ overflow-y: auto;
+  margin-left: 6rem;
+ 
+  
+}
