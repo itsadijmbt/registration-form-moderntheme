@@ -222,7 +222,6 @@ jsskillSelector.addEventListener('click',()=>{
 
 
 
-
 /*  dataList.style.fontFamily=" 'Yuji Hentaigana Akebono', cursive";
  dataList.style.color='white';
  dataList.style.display='flex';

@@ -67,9 +67,9 @@
 
 .name,.mail,.website,.image-link{
   filter: drop-shadow(2px 3px 3px rgb(0 0 0 / 0.4));
-  width: 14rem;
+  width: 80%;
   background: transparent;
-  width: 32rem;
+
   background-color: transparent;
 
   color: white;
@@ -285,5 +285,113 @@ width: 42rem;
  overflow-y: auto;
   margin-left: 6rem;
  
+  
+}
+
+@media (max-width: 867px) {
+  .search-div{
+    width: 21rem;
+    transform: translate(-55%,0%);
+  }
+  
+  .submission{
+    margin-right: 1rem;
+  }
+
+  .rg-form{
+    font-size: 2rem;
+  }
+
+  .info-feed{
+    margin-top: 10rem;
+    transform: translate(-12%,-10%);
+    width: 70%;
+    margin-right: 0%;
+    
+  height: 55rem;
+  }
+  .background
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 220vh;
+    width: 100%;
+    
+  }
+  .data-feeded{
+    margin-left: 40%;
+    width: 70%;
+    transform: translate(-24%,-10%);
+   font-size: 2rem;
+ 
+  }
+  .new-person{
+    width: 130%;
+  }
+  
+}
+
+@media (max-width:640px) {
+  .info-feed{
+    width: 85%;
+    margin-top: 8rem;
+    transform: translate(-30%, -10%) ;
+
+    height: 53rem;
+  }
+  .image-link,.website,.mail,.name{
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+   height: 7rem;
+   justify-content: space-between;
+  }
+  .submission {
+    height: 2rem;
+  }
+  .background
+  {width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .data-feeded{
+
+    width:85%;
+    transform: translate(-24%,-10%);
+   font-size: 2rem;
+   margin-top: 2rem;
+ 
+  }
+
+
+}
+@media (max-width: 500px) 
+{
+
+  .background{
+    width: 100%;
+  }
+
+  .rg-form{
+    font-size: 1.4rem;
+  }
+  .render-image{
+    width: 70%;
+  }
+}
+@media (max-width:400px) {
+  .info-feed{
+    transform: translate(-35%,-10%);
+  }
   
 }
